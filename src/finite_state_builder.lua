@@ -11,6 +11,7 @@ local util = require("util")
 FiniteState = {}
 
 ---@class FiniteStateBuilder
+---@field data FiniteState
 ---@field enter fun(self, function): FiniteStateBuilder
 ---@field exit fun(self, function): FiniteStateBuilder
 ---@field update fun(self, function): FiniteStateBuilder

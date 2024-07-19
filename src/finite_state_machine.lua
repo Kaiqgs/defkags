@@ -1,7 +1,6 @@
 local util = require("util")
-local FiniteStateBuilder = require("common.fsb")
+local FiniteStateBuilder = require("finite_state_builder")
 local FiniteStateMachine = util.NewClass({})
-local _stateCounter = 0
 function FiniteStateMachine.new(o)
     o = o or {}
     local states = {}
